@@ -1,0 +1,42 @@
+#totalPriceContainer{
+	display: flex;	/* Flexbox */
+	flex-direction:row;		/* Prop of Flexbox */
+	padding: 20px;	
+	justify-content: center;	/* Prop of Flexbox - horizontal aligning */
+	align-items: center;		/* Prop of Flexbox - vertical aligning */
+}
+#price,#checkOutAnchor{
+	margin: 5px;	
+}
+#checkOutAnchor{
+	text-decoration: none;	/* Remove anchor's underlining */
+	background-color: LightSkyBlue;
+	color:black;
+	font-size: 0.9em;
+	padding:3px 6px;
+/* 	border: 1px solid DeepSkyBlue; */
+	border-radius: 6px;	
+}
+body{
+	background-color: #EFFBEF;
+	;
+}
+#tableCart{
+	background-color: white;
+	padding:10px 5px 20px;
+	border-radius: 5px;
+	margin: 30px auto;
+/* 	box-sizing:border-box; */
+	border-collapse: separate;	/* default */
+	width:60%;
+}
+thead{
+	background-color: #A9F5A9;
+}
+tbody{
+	background-color: #E0F8E0;	
+}
+th,td{
+	padding:10px;
+	border-radius:4px;
+}

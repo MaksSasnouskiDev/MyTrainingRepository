@@ -1,0 +1,38 @@
+#login{	
+	max-width:50%;
+	margin:auto;
+	font-family:georgia,serif;	
+	text-align:center;
+	background-color: PapayaWhip;
+	border: 2px solid PeachPuff;	
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 20px;
+}
+#userWelcWrite{
+	position: relative;
+	right: 5px;  /*push to 10px to the LEFT */
+	margin-bottom: 10px;
+}
+#email,#psw{
+	padding:10px 20px;
+	margin:5px auto 15px auto;
+	display: block;
+	border: 2px solid PeachPuff;
+	border-radius: 7px;
+}
+input[type=submit]{
+	background-color:white;
+	font-size:1em;
+	font-weight:bold;
+	border:2px solid peachPuff;
+	border-radius: 4px;
+	padding:5px;
+}
+input[type=submit]:hover{
+	transition: 0.5s;	
+	cursor:pointer;
+	background-color:PapayaWhip;
+	transform: scale(1.1);
+	
+}
